@@ -9,6 +9,7 @@ deployment:
     maxUnavailable: null
     maxSurge: null
 daemonset:
+  updateStrategy: null
 vsphereCPI:
   updateStrategy: null
   mode: vsphereCPI
